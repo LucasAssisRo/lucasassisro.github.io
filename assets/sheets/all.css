@@ -11,6 +11,7 @@ a:hover {
 
 a {
 	color: black;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 section,
@@ -95,57 +96,75 @@ i:hover {
     margin: 20px auto;
 }
 
+.resume-download {
+	color: #fd4507;
+	position: relative;
+	white-space: nowrap;
+}
+
+.resume-download:hover {
+	color: #fd4507;
+}
+
+.resume-download:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.resume-download:hover:after {
+    right: 50%;
+    left: 50%;
+}
+
 .project {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
     text-align: left;
-    /*position: relative;*/
-    /*height: 120px;*/
-    /*display: block;*/
     padding: 0;
     width: 100%;
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    transition: all 0.3s ease-in-out;
     list-style: none;
+    line-height: 60px;
 }
 
-.project-link {
-    /*position: absolute;*/
-/*    left: 50%;
-    top: 50%;*/
-    /*transform: translate(-50%, -50%);*/
+.project-link {	
+	transition: all 0.2s ease-in-out;
+}
+
+a.project-link {
     font-weight: lighter;
     font-size: 35px;
+    position: relative;
+}
+
+a.project-link:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+a.project-link:hover:after {
+    right: 50%;
+    left: 50%;
 }
 
 h3.project-link {
 	font-size: 50px;
 }
 
-.project.title {
-    background-color: white;
-}
-
-.project.title .project-link {
-    left: 0;
-    top: 0;
-    transform: translate(0, -0);
-}
-
-a.project:hover {
+a.project-link:hover {
     color: #fd4507;
     letter-spacing: 5px;
-}
-
-.resume-download {
-	color: #fd4507;
-}
-
-i.resume-download:hover {
-	background-color: #fd4507;
-	color: white;
 }
 
 .footer {
