@@ -10,8 +10,8 @@ a:hover {
 }
 
 a {
-	color: black;
-	font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 section,
@@ -20,7 +20,7 @@ footer {
 }
 
 footer {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 h2,
@@ -32,7 +32,7 @@ h3 {
 }
 
 h3 {
-	font-size: 50px;
+    font-size: 50px;
 }
 
 p {
@@ -42,16 +42,16 @@ p {
 }
 
 i {
-	padding: 5px;
-	border-radius: 5px;
-	color: black;
-	font-size: 40px; 
-	margin: 10px;
-	transition: all 0.2s ease-in-out;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 40px;
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
 }
 
 i:hover {
-	background-color: #fd4507;
+    background-color: #fd4507;
 }
 
 .header {
@@ -97,13 +97,13 @@ i:hover {
 }
 
 .resume-download {
-	color: #fd4507;
-	position: relative;
-	white-space: nowrap;
+    color: #fd4507;
+    position: relative;
+    white-space: nowrap;
 }
 
 .resume-download:hover {
-	color: #fd4507;
+    color: #fd4507;
 }
 
 .resume-download:after {
@@ -132,8 +132,8 @@ i:hover {
     line-height: 60px;
 }
 
-.project-link {	
-	transition: all 0.2s ease-in-out;
+.project-link {
+    transition: all 0.2s ease-in-out;
 }
 
 a.project-link {
@@ -156,10 +156,11 @@ a.project-link:after {
 a.project-link:hover:after {
     right: 50%;
     left: 50%;
+    background-color: #fd4507;
 }
 
 h3.project-link {
-	font-size: 50px;
+    font-size: 50px;
 }
 
 a.project-link:hover {
@@ -168,5 +169,5 @@ a.project-link:hover {
 }
 
 .footer {
-	text-align: left;
+    text-align: left;
 }
