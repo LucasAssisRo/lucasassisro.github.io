@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Teko');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+    background-color: white
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+	color: black;
+}
+
+section,
+footer {
+    margin: 80px 0 100px;
+}
+
+footer {
+	margin-bottom: 40px;
+}
+
+h2,
+h3 {
+    color: #fd4507;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+	font-size: 50px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    font-size: 30px;
+}
+
+i {
+	padding: 5px;
+	border-radius: 5px;
+	color: black;
+	font-size: 40px; 
+	margin: 10px;
+	transition: all 0.2s ease-in-out;
+}
+
+i:hover {
+	background-color: #fd4507;
+}
+
+.header {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.header-inner {
+    margin: auto;
+}
+
+.header-inner img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header-inner h1 {
+    font-size: 60px;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.line {
+    background-color: black;
+}
+
+.line.horizontal {
+    height: 1px;
+    max-width: 90%;
+    margin: 20px auto 20px;
+}
+
+.line.horizontal.bottom {
+    margin-top: 0;
+}
+
+
+.line.vertical {
+    height: 90vh;
+    max-width: 5px;
+    margin: 20px auto;
+}
+
+.project {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    /*position: relative;*/
+    /*height: 120px;*/
+    /*display: block;*/
+    padding: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    list-style: none;
+}
+
+.project-link {
+    /*position: absolute;*/
+/*    left: 50%;
+    top: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+h3.project-link {
+	font-size: 50px;
+}
+
+.project.title {
+    background-color: white;
+}
+
+.project.title .project-link {
+    left: 0;
+    top: 0;
+    transform: translate(0, -0);
+}
+
+a.project:hover {
+    color: #fd4507;
+    letter-spacing: 5px;
+}
+
+.resume-download {
+	margin: auto;
+	text-align: center;
+}
+
+.footer {
+	text-align: left;
+}
