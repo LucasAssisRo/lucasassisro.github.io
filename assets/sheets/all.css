@@ -113,7 +113,7 @@ i:hover {
     left: 0;
     bottom: 0;
     height: 2px;
-    background-color: black;
+    background-color: #fd4507;
     transition: all 0.3s ease-in-out;
 }
 
