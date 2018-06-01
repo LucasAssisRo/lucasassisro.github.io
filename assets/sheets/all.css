@@ -140,8 +140,12 @@ a.project:hover {
 }
 
 .resume-download {
-	margin: auto;
-	text-align: center;
+	color: #fd4507;
+}
+
+i.resume-download:hover {
+	background-color: #fd4507;
+	color: white;
 }
 
 .footer {
