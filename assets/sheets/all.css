@@ -136,7 +136,7 @@ i:hover {
 }
 
 a.project-link {
-    font-weight: lighter;
+    font-weight: bolder;
     font-size: 35px;
     position: relative;
 }
@@ -163,14 +163,22 @@ a.project-link:hover {
     letter-spacing: 2px;
 }
 
+.skill-list {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    white-space: nowrap;
+    list-style-type: disc;
+}
+
 .footer {
     text-align: left;
 }
 
 
 @media screen and (max-width: 900px) {
-    * {
-        text-align: center;
+    section,
+    footer {
+        margin: 40px 0 50px;
     }
 
     h2 {
@@ -179,7 +187,8 @@ a.project-link:hover {
     }
 
     h3 {
-        font-size: 25px;
+        font-size: 22px;
+        text-align: center;
     }
 
     p {
@@ -203,6 +212,12 @@ a.project-link:hover {
 
     a.project-link {
         font-size: 20px;
+    }
+
+    .skill-list {
+        margin-top: 10px;
+        font-size: 16px;
+        padding: 0;
     }
 
     .mobile {
