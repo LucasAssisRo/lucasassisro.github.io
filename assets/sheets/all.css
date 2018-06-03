@@ -178,7 +178,7 @@ a.project-link:hover {
 @media screen and (max-width: 900px) {
     section,
     footer {
-        margin: 40px 0 50px;
+        margin: 40px 0 10px;
     }
 
     h2 {
