@@ -51,8 +51,8 @@ i {
 }
 
 i:hover {
-    background-color: #fd4507;
-    color:white;
+    color: #fd4507;
+    opacity: 0.9;
 }
 
 .header {
@@ -161,7 +161,6 @@ a.project-link:hover:after {
 
 a.project-link:hover {
     color: #fd4507;
-    letter-spacing: 2px;
 }
 
 .skill-list {
